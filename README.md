@@ -7,6 +7,10 @@ fields out. It is trained **without any simulation data**. The loss is the
 specimen with resampled quadrature (the Deep Ritz / energy form). The
 Dirichlet conditions are imposed exactly by a distance-function layer.
 
+<p align="center">
+ <img src="docs/pi_ginot_architecture_animated.gif" alt="PI-GINOT architecture: geometry branch, neural-operator trunk, and energy-based physics loss" width="100%">
+</p>
+
 Every number below is scored against an **independent, self-verified finite
 element reference**, on **held-out geometries**, over **three seeds**. The
 comparisons behind them were pre-registered.
