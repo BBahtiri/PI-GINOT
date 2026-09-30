@@ -1,0 +1,96 @@
+{
+ "a": {
+  "dogbone": {
+   "div_rel": 3.9774082583146574e-15,
+   "traction_rel": 1.1658245278607048e-14,
+   "n_interior": 4605,
+   "n_boundary": 226,
+   "n_junctions": 0,
+   "excluded_frac": 0.0,
+   "categories": {
+    "0": 70,
+    "1": 46,
+    "2": 110
+   }
+  },
+  "open_hole": {
+   "div_rel": 5.964122114201137e-15,
+   "traction_rel": 9.393500847427833e-15,
+   "n_interior": 3651,
+   "n_boundary": 214,
+   "n_junctions": 0,
+   "excluded_frac": 0.0,
+   "categories": {
+    "0": 24,
+    "1": 80,
+    "2": 110
+   }
+  },
+  "inclusion": {
+   "div_rel": 4.0252046771396684e-15,
+   "traction_rel": 6.602575850632879e-15,
+   "n_interior": 6721,
+   "n_boundary": 198,
+   "n_junctions": 2,
+   "excluded_frac": 0.006504065040650375,
+   "categories": {
+    "1": 82,
+    "2": 116
+   }
+  },
+  "double_notch": {
+   "div_rel": 3.318619341638483e-15,
+   "traction_rel": 5.627188374224415e-15,
+   "n_interior": 3675,
+   "n_boundary": 238,
+   "n_junctions": 0,
+   "excluded_frac": 0.0,
+   "categories": {
+    "0": 24,
+    "1": 88,
+    "2": 126
+   }
+  },
+  "single_notch": {
+   "div_rel": 1.0160870208875684e-14,
+   "traction_rel": 1.2975307176328756e-14,
+   "n_interior": 4260,
+   "n_boundary": 228,
+   "n_junctions": 0,
+   "excluded_frac": 0.0,
+   "categories": {
+    "0": 24,
+    "1": 172,
+    "2": 32
+   }
+  }
+ },
+ "a_pass": true,
+ "b": {
+  "loss_rel": 0.0,
+  "components": {
+   "L_eq": [
+    4.217576848044979e-05,
+    4.217576848044979e-05
+   ],
+   "L_arc": [
+    5.520916113444677e-05,
+    5.520916113444677e-05
+   ],
+   "L_top": [
+    1.421044185549996e-05,
+    1.421044185549996e-05
+   ],
+   "L_part": [
+    7.841606219499174e-11,
+    7.841606219499173e-11
+   ],
+   "L_barrier": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "b_pass": true,
+ "G3": "PASS"
+}

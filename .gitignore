@@ -1,0 +1,50 @@
+
+# Generated showcase frames and media
+showcase_frames/
+showcase_frames_v2/
+*.gif
+*.mp4
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Private / not for public repo
+llm_agents/pages/3_Demo.py
+PROJECT_CODE.txt
+.env
+
+# Local app logs
+streamlit*.log
+
+# The frozen dense evaluation set IS committed (eval/dense_eval.npz):
+# every reported ||Div P|| and ||P.N|| refers to those exact points, and
+# scipy's Sobol scrambling is not guaranteed stable across versions.
+# Regenerate with:  python -m eval.dense_eval --build
+
+# Verification and study outputs (checkpoints, logs, FEM caches, result.json):
+# large and regenerable by the drivers in training/ and verification/.
+# The score files behind every reported number are committed under docs/.
+verification/results/
+
+# Trained model weights are not versioned; train with training/run_p94.py
+checkpoints/
+*.pt

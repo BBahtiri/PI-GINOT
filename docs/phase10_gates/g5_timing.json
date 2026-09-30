@@ -1,0 +1,130 @@
+[
+ {
+  "arm": "A",
+  "config": "weq100_wtop2_lr0.0003",
+  "s_per_step": 32.440788984298706,
+  "peak_rss_gb": 1.5828056335449219,
+  "s7_cpu_h": 324.40788984298706,
+  "keep": false
+ },
+ {
+  "arm": "B",
+  "config": "lr0.0003_clipon",
+  "s_per_step": 2.804545760154724,
+  "peak_rss_gb": 1.1619987487792969,
+  "s7_cpu_h": 28.04545760154724,
+  "keep": true
+ },
+ {
+  "arm": "C1",
+  "config": "B_K2_beta5",
+  "s_per_step": 81.96143245697021,
+  "peak_rss_gb": 1.0995826721191406,
+  "s7_cpu_h": 819.6143245697021,
+  "keep": false
+ },
+ {
+  "arm": "C1",
+  "config": "coarse_K2_beta5",
+  "s_per_step": 17.294645071029663,
+  "peak_rss_gb": 1.0724716186523438,
+  "s7_cpu_h": 172.94645071029663,
+  "keep": false
+ },
+ {
+  "arm": "C1",
+  "config": "coarse_K4_beta5",
+  "s_per_step": 40.48653161525726,
+  "peak_rss_gb": 1.1183624267578125,
+  "s7_cpu_h": 404.86531615257263,
+  "keep": false
+ },
+ {
+  "arm": "C1n",
+  "config": "B_K2",
+  "s_per_step": 60.30265283584595,
+  "peak_rss_gb": 1.0881881713867188,
+  "s7_cpu_h": 603.0265283584595,
+  "keep": false
+ },
+ {
+  "arm": "C1n",
+  "config": "coarse_K2",
+  "s_per_step": 17.48340356349945,
+  "peak_rss_gb": 1.0749626159667969,
+  "s7_cpu_h": 174.8340356349945,
+  "keep": false
+ },
+ {
+  "arm": "C1n",
+  "config": "coarse_K4",
+  "s_per_step": 40.60043013095856,
+  "peak_rss_gb": 1.1067619323730469,
+  "s7_cpu_h": 406.00430130958557,
+  "keep": false
+ },
+ {
+  "arm": "C2I",
+  "config": "B",
+  "s_per_step": 0.6188822984695435,
+  "peak_rss_gb": 0.7969512939453125,
+  "s7_cpu_h": 6.188822984695435,
+  "keep": true
+ },
+ {
+  "arm": "C2I",
+  "config": "h2",
+  "s_per_step": 1.999907374382019,
+  "peak_rss_gb": 1.0882492065429688,
+  "s7_cpu_h": 19.99907374382019,
+  "keep": true
+ },
+ {
+  "arm": "C2",
+  "config": "P1_D4_B",
+  "s_per_step": 10.812927722930908,
+  "peak_rss_gb": 1.0582275390625,
+  "s7_cpu_h": 108.12927722930908,
+  "keep": true
+ },
+ {
+  "arm": "C2",
+  "config": "P1_D4_h2",
+  "s_per_step": 28.452111721038822,
+  "peak_rss_gb": 1.0687217712402344,
+  "s7_cpu_h": 284.52111721038824,
+  "keep": false
+ },
+ {
+  "arm": "C2",
+  "config": "P1_D6_B",
+  "s_per_step": 20.823233246803284,
+  "peak_rss_gb": 1.0602188110351562,
+  "s7_cpu_h": 208.23233246803284,
+  "keep": false
+ },
+ {
+  "arm": "C2",
+  "config": "P1_D6_h2",
+  "s_per_step": 56.5135372877121,
+  "peak_rss_gb": 1.0824851989746094,
+  "s7_cpu_h": 565.135372877121,
+  "keep": false
+ },
+ {
+  "arm": "C2",
+  "config": "P2_D4_B",
+  "s_per_step": 10.633187770843506,
+  "peak_rss_gb": 1.0556106567382812,
+  "s7_cpu_h": 106.33187770843506,
+  "keep": true
+ },
+ {
+  "arm": "C2",
+  "config": "P2_D6_B",
+  "s_per_step": 19.64754807949066,
+  "peak_rss_gb": 1.0778427124023438,
+  "s7_cpu_h": 196.47548079490662,
+  "keep": false
+ }
+]
