@@ -1,4 +1,4 @@
-# PI-GINOT — a physics-informed neural operator for stress concentrations
+# Energy-PI-GINOT — data-free operator learning for stress-concentration families
 
 PI-GINOT learns the **solution operator of finite-strain hyperelasticity on
 families of notched and holed specimens**: geometry in, displacement and stress
@@ -14,6 +14,20 @@ Dirichlet conditions are imposed exactly by a distance-function layer.
 Every number below is scored against an **independent, self-verified finite
 element reference**, on **held-out geometries**, over **three seeds**. The
 comparisons behind them were pre-registered.
+
+## Relation to earlier DogBone benchmark
+
+This repository belongs to a follow-up study on energy-based, data-free
+operator learning for stress-concentration problems across multiple parametric
+solid-mechanics families.
+
+It is distinct from the earlier controlled DogBone benchmark, which focused on
+a single smooth geometry family, strong-form physics residuals, exact essential
+boundary-condition enforcement and independent finite-element validation.
+
+The present repository investigates a broader energy/Ritz-type formulation and
+should be regarded as a separate methodological extension, not as a replacement
+of the earlier DogBone study.
 
 ## Results
 
@@ -43,14 +57,13 @@ Full results, intervals and verdicts are in
 [`docs/phase9_6_results.md`](docs/phase9_6_results.md) and
 [`docs/phase9_5_results.md`](docs/phase9_5_results.md).
 
-**What did not work.** Documented in [`docs/phase10_log.md`](docs/phase10_log.md)
-and [`docs/phase9_results.md`](docs/phase9_results.md):
-- **The strong form** (the original residual loss, arXiv 2607.23299) converges
-  to the trivial uniform stretch on the operator.
-- **Weak forms with fixed test spaces** (hp-VPINN / FastVPINNs, and Lagrange
-  test functions) find spurious fields with near-zero residual at operator
-  scale: 573k parameters against a few thousand test equations.
-- **L-BFGS polishing** overfits the fixed quadrature points.
+**Formulation comparisons and development notes.** Several alternative
+training formulations were investigated during development, including
+strong-form residuals, fixed-test-space weak forms and L-BFGS polishing.
+The final results reported in this repository use the energy/Ritz formulation,
+which provided the most robust behaviour for the multi-family
+stress-concentration setting studied here. Detailed internal development
+notes are kept in the `docs/` folder.
 
 ## The method
 
@@ -201,9 +214,19 @@ model.
 
 ## Citation
 
-The original residual-form model is described in arXiv:2607.23299. The
-energy-form results in this repository supersede its numbers. Please cite the
-preprint and this repository.
+This repository accompanies a follow-up study on energy-based, data-free
+operator learning for stress-concentration problems across multiple parametric
+solid-mechanics families.
+
+The earlier controlled DogBone benchmark is available as a separate preprint:
+Dean and Bahtiri, PI-GINOT: Data-free geometry-informed neural operator
+learning for finite-strain hyperelasticity on parametric DogBone specimens,
+arXiv:2607.23299.
+
+Please cite the relevant work according to the method and results used:
+the DogBone benchmark for the earlier controlled strong-form study, and this
+repository for the present energy-based multi-family stress-concentration
+study.
 
 ## License
 
