@@ -522,9 +522,9 @@ All reported operators are family specific.
 
 This repository accompanies the manuscript:
 
-**A. Dean, B. Bahtiri, M. K. Khraisheh**
+A. Dean, B. Bahtiri, M. K. Khraisheh
 
-**“Energy-trained geometry-conditioned neural operators for stress concentrations in finite-strain solids: verification hierarchy, failure modes and extrapolation limits.”**
+“Energy-trained geometry-conditioned neural operators for stress concentrations in finite-strain solids: verification hierarchy, failure modes and extrapolation limits.”
 
 Citation details will be updated upon publication.
 
@@ -538,4 +538,4 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## Authors
 
-**Betim Bahtiri and Aamir Dean**  
+Betim Bahtiri and Aamir Dean
